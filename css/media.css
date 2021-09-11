@@ -1,0 +1,249 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+/* header */
+  .menu ul li a{
+    font-size: 18px;
+    padding: 5px 0 !important;
+    text-align: right;
+}
+/* slider */
+.slider{
+  padding-bottom: 80px;
+}
+.cid{
+  bottom: -60px;
+}
+.cid [data-bs-target] {
+   
+  width: 13px;
+  height: 13px;
+ 
+}
+.s-content{
+  margin-top: 10px;
+}
+.s-content h1{
+  font-size: 25px;
+}
+.s-content h2{
+  margin: 15px 0 20px;
+}
+.s-icon li i {
+  margin-right: 15px;
+  font-size: 35px;
+}
+/* feature */
+.feature{
+  padding: 50px 0 70px;
+}
+.f-icon i{
+  font-size: 40px;
+
+}
+.f-content{
+  margin-top: 5px;
+}
+.f-single{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.f-p{
+  font-size: 17px;
+  letter-spacing: 0px;
+  
+}
+.fc-p{
+  letter-spacing: 0;
+}
+.ourteam {
+  padding: 60px 0 230px;
+  background-color: #f6efff;
+}
+/*contact start*/
+.maincform {
+  padding: 22px 0;
+  right: 0%;
+  bottom: 42%;
+}
+.conp{
+padding: 0 8px;
+}
+.cbtn {
+  margin-top: 0px;
+}
+.subhead span {
+  margin-bottom: 15px;
+  text-align: center;
+  display: block;
+}
+.subhead h3 {
+  margin-bottom:3px;
+  font-size: 22px;
+  text-align: center;
+}
+.subbtn {
+  height: 40px;
+  width: 42%;
+  display: block;
+  margin: 20px auto 0px;
+}
+.contact {
+  padding: 380px 0 40px;
+}
+/*contact  end*/
+.f-submit{
+ margin-top: 20px;
+}
+
+/* footer */
+footer{
+  padding-bottom:50px ;
+}
+.f-1{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header */
+  .menu ul li a{
+    font-size: 20px;
+    padding: 5px 0 !important;
+    text-align: right;
+}
+/* slider */
+.slider{
+  padding-bottom: 80px;
+}
+.cid{
+  bottom: -60px;
+}
+.cid [data-bs-target] {
+   
+  width: 13px;
+  height: 13px;
+ 
+}
+.s-content{
+  margin-top: 10px;
+}
+.s-content h2{
+  margin: 15px 0 20px;
+}
+.s-icon li i {
+  margin-right: 15px;
+  font-size: 35px;
+}
+/* feature */
+.f-single{
+  margin-top: 30px;
+  text-align: center;
+}
+.f-icon i{
+  font-size: 40px;
+
+}
+.feature{
+  padding: 60px 0 80px;
+}
+.f-h1{
+  margin: 0 0 10px;
+  font-size: 25px;
+ 
+}
+.f-p{
+  font-size: 18px;
+  letter-spacing: 0px;
+  
+}
+.fc-h2{
+  margin-bottom: 10px;
+ 
+}
+/* contact */
+.contact{
+  padding: 60px 0 80px;
+}
+
+/* footer */
+.f-1{
+  text-align: center;
+  margin-bottom: 50px;
+}
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  /* header */
+  .menu ul li a{
+    padding: 5px 0 !important;
+    text-align: right;
+}
+/* slider */
+.s-content{
+  margin-top: 50px;
+}
+/* feature */
+.feature{
+  padding: 80px 0 100px;
+}
+.f-single{
+  margin-top: 50px;
+}
+.f-form{
+  margin: 30px 0 0px;
+}
+/* contact */
+.contact {
+  padding: 70px 0 80px;
+  
+}
+.clink{
+  margin-top: 60px;
+}
+ /* contact start */
+ .maincform {
+  padding: 25px 35px;
+  right: 0%;
+  bottom: 43%;
+}
+.contact {
+  padding: 330px 0 50px;
+}
+ /* contact end */
+/* footer */
+.footer-content{
+  padding-bottom: 90px;
+}
+  
+ }
+
+ /* Large devices (desktops, 992px and up) */   
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/* footer */
+.footer-content{
+  padding-bottom: 90px;
+} 
+ 
+}
+
+ /*Extra Large devices (desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+   /* footer */
+.footer-content{
+  padding-bottom: 90px;
+}
+ 
+  }
+
+/* Extra extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) { 
+  /* footer */
+.footer-content{
+  padding-bottom: 90px;
+}
+ }
